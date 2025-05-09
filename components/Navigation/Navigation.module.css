@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.link {
+  padding: 0.5rem 1.5rem;
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out, background-color 0.2s;
+}
+
+.link:hover {
+  font-weight: bold;
+}
+
+.link:active {
+  transform: scale(1.1);
+}
+
+.active {
+  background-color: #666;
+  color: #fff;
+}
