@@ -5,9 +5,10 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <GlobalStyle />
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <Component {...pageProps} />
+      <div>
+        <spotlightArt />
+      </div>
     </>
   );
 }
