@@ -1,0 +1,17 @@
+.main {
+  max-width: 800px;
+  margin: 6rem auto 2rem; /* Oben Abstand für fixierten Header */
+  padding: 0 1rem;
+  padding-bottom: 5rem; /* Platz für den Footer */
+}
+
+.footer {
+  position: fixed;
+  bottom: 18px; /* 20px Abstand zum unteren Rand */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: transparent;
+  padding: 0.5rem 0;
+  z-index: 100;
+}
